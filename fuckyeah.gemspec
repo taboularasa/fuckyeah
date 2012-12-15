@@ -4,10 +4,10 @@ Gem::Specification.new do |s|
   s.email = 'malfermu@malfer.mu'
   s.description = 'Add awesomeness to your code'
 
-  s.version = '1.1.0'
+  s.version = '1.2.0'
   s.date = '2012-12-15'
   
-  s.files = ['lib/fuckyeah.rb']
+  s.files = ['lib/fuckyeah.rb', 'readme.rdoc', 'license']
   s.homepage = 'http://rubygems.org/gems/fuckyeah'
   s.summary = 'Fuck yeah!'
 end
