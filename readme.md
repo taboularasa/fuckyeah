@@ -1,7 +1,7 @@
 fuckyeah
 ========
 
-fuckyeah is a Ruby implemenation of the popular {FuckYeah jQuery plugin}[http://github.com/artpolikarpov/fuckyeah].
+fuckyeah is a Ruby implemenation of the popular [FuckYeah jQuery plugin](http://github.com/artpolikarpov/fuckyeah).
 
 Getting started
 ---------------
