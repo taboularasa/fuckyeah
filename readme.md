@@ -48,4 +48,4 @@ License
 -------
 
 fuckyeah is an opensource project.  
-© 2012, under the [MIT license](http://github.com/malfermu/fuckyeah/blob/master/license)
+© 2012, under the [WTFPL license](http://github.com/malfermu/fuckyeah/blob/master/license)
