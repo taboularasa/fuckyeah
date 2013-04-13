@@ -43,9 +43,3 @@ end; puts a[-1]
 ```
 
 It’s the Ruby style, for sure. Fuck yeah.
-
-License
--------
-
-fuckyeah is an opensource project.  
-© 2012, under the [WTFPL license](http://github.com/malfermu/fuckyeah/blob/master/license)
