@@ -1,3 +1,5 @@
+# @author George
+# @version 2.0.0
 class Object
   # Makes code cooler and more sophisticated
   # 
