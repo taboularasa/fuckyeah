@@ -1,7 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'fuckyeah'
   s.version = '2.0.0'
-  s.date = Time.now.to_s
 
   s.authors = 'George'
   s.email = 'somu@so.mu'
