@@ -1,5 +1,11 @@
 fuckyeah
 ========
+[![Build status](https://secure.travis-ci.org/somu/fuckyeah.png?branch=master)](http://travis-ci.org/somu/fuckyeah)
+[![Version](https://badge.fury.io/rb/fuckyeah.png)](http://rubygems.org/gems/fuckyeah)
+[![Dependency Status](https://gemnasium.com/somu/fuckyeah.png)](https://gemnasium.com/somu/fuckyeah)
+[![Code readability](https://codeclimate.com/github/somu/fuckyeah.png)](https://codeclimate.com/github/somu/fuckyeah)
+
+[**Documentation**](http://rubydoc.info/github/somu/fuckyeah/master/frames)
 
 fuckyeah is a Ruby implemenation of the popular [FuckYeah jQuery plugin](http://github.com/artpolikarpov/fuckyeah).
 
