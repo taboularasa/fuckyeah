@@ -1,4 +1,4 @@
-fuckyeah
+Fuckyeah
 ========
 [![Build status](https://secure.travis-ci.org/somu/fuckyeah.png?branch=master)](http://travis-ci.org/somu/fuckyeah)
 [![Version](https://badge.fury.io/rb/fuckyeah.png)](http://rubygems.org/gems/fuckyeah)
