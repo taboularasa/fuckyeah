@@ -8,6 +8,7 @@ Fuckyeah
 [**Documentation**](http://rubydoc.info/github/somu/fuckyeah/master/frames)
 
 Fuckyeah is a drop-in solution for refactoring your code, specs, models and everything you dare to refactor.
+No dependencies, works with all Rubies, full test coverage and YARD documentation. Everything you can dream of.
 
 Getting started
 ---------------
