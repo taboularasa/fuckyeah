@@ -7,12 +7,12 @@ Fuckyeah
 
 [**Documentation**](http://rubydoc.info/github/somu/fuckyeah/master/frames)
 
-fuckyeah is a Ruby implemenation of the popular [FuckYeah jQuery plugin](http://github.com/artpolikarpov/fuckyeah).
+Fuckyeah is a drop-in solution for refactoring your code, specs, models and everything you dare to refactor.
 
 Getting started
 ---------------
 
-Just install the ruby gem:  
+Just install the gem:
 ```shell
 gem install fuckyeah
 ```
@@ -21,29 +21,43 @@ And you’re ready to go!
 Examples
 --------
 
-fuckyeah is incredibly easy to use.  
-Every single bit of code becomes better after using it, just take a look.
+Incredibly easy to use. Magic. Pow.
+Automagically improving every single method you write:
 
-**Before:**
 ```ruby
-n = gets.to_i
-a = [1, 1]
-
-(n-2).times { a << a[-1] + a[-2] }
-puts a[-1]
+class String
+  def to_latin
+    self.gsub('А','a').gsub('а','a').gsub('Б','b').gsub('б','b').gsub('В','v').gsub('в','v').gsub('Г','g').gsub('г','g').gsub('Д','d').gsub('д','d').gsub('Е','e').gsub('е','e').gsub('Ё','ye').gsub('ё','e').gsub('Ж','j').gsub('ж','j').gsub('З','z').gsub('з','z').gsub('И','i').gsub('и','i').gsub('Й','i').gsub('й','i').gsub('К','k').gsub('к','k').gsub('Л','l').gsub('л','l').gsub('М','m').gsub('м','m').gsub('Н','n').gsub('н','n').gsub('О','o').gsub('о','o').gsub('П','p').gsub('п','p').gsub('Р','r').gsub('р','r').gsub('С','s').gsub('с','s').gsub('Т','t').gsub('т','t').gsub('У','u').gsub('у','u').gsub('Ф','f').gsub('ф','f').gsub('Х','h').gsub('х','h').gsub('Ц','ts').gsub('ц','ts').gsub('Ч','ch').gsub('ч','ch').gsub('Ш','sh').gsub('ш','sh').gsub('Щ','sh').gsub('щ','sh').gsub('Ъ','').gsub('ъ','').gsub('Ы','y').gsub('ы','y').gsub('Ь','').gsub('ь','').gsub('Э','e').gsub('э','e').gsub('Ю','you').gsub('ю','you').gsub('Я','ya').gsub('я','ya').gsub('`','').gsub(' ','-')
+  end
+end
 ```
 
-Nobody cares about your inefficient Fibonacci algorithm, you dumbass!
+**Feels a little verbose, yeah? Just apply `#fuckyeah`:**
 
-**After:**
 ```ruby
 require 'fuckyeah'
 
-n = gets.fuckyeah.to_i
-a = [1, 1]
+class String
+  def to_latin
+    self.gsub('А','a').gsub('а','a').gsub('Б','b').gsub('б','b').gsub('В','v').gsub('в','v').gsub('Г','g').gsub('г','g').gsub('Д','d').gsub('д','d').gsub('Е','e').gsub('е','e').gsub('Ё','ye').gsub('ё','e').gsub('Ж','j').gsub('ж','j').gsub('З','z').gsub('з','z').gsub('И','i').gsub('и','i').gsub('Й','i').gsub('й','i').gsub('К','k').gsub('к','k').gsub('Л','l').gsub('л','l').gsub('М','m').gsub('м','m').gsub('Н','n').gsub('н','n').gsub('О','o').gsub('о','o').gsub('П','p').gsub('п','p').gsub('Р','r').gsub('р','r').gsub('С','s').gsub('с','s').gsub('Т','t').gsub('т','t').gsub('У','u').gsub('у','u').gsub('Ф','f').gsub('ф','f').gsub('Х','h').gsub('х','h').gsub('Ц','ts').gsub('ц','ts').gsub('Ч','ch').gsub('ч','ch').gsub('Ш','sh').gsub('ш','sh').gsub('Щ','sh').gsub('щ','sh').gsub('Ъ','').gsub('ъ','').gsub('Ы','y').gsub('ы','y').gsub('Ь','').gsub('ь','').gsub('Э','e').gsub('э','e').gsub('Ю','you').gsub('ю','you').gsub('Я','ya').gsub('я','ya').gsub('`','').gsub(' ','-').fuckyeah
+  end
+end
+```
 
-(n-2).fuckyeah.times { a.fuckyeah << a[-1] + a[-2] }
-puts a[-1]
+Got some bullshit in your code?
+
+```ruby
+def true_or_false(bool)
+  !!bool ? true : false
+end
+```
+
+No prob, `#fuckyeah` is your lifesaver:
+
+```ruby
+def true_or_false(bool)
+  !!bool.fuckyeah ? true : false
+end
 ```
 
 It’s the Ruby style, for sure. Fuck yeah.
@@ -51,10 +65,14 @@ It’s the Ruby style, for sure. Fuck yeah.
 Tests
 -----
 
-We’ve got [a full case test coverage suite](https://github.com/somu/fuckyeah/tree/master/test).  
+We’ve got [a full case test coverage suite](https://github.com/somu/fuckyeah/tree/master/test).
 Well, almost.
 
-So we **do need your help**. Make a test which describes how does fuckyeah work with instances of a class ([String](https://github.com/somu/fuckyeah/tree/master/test/string.rb), for example) and pull request it. I will be glad to pull it in the repo.
+So we **do need your help**.
+Make a test which describes how does fuckyeah work with instances of a class ([String](https://github.com/somu/fuckyeah/tree/master/test/string.rb), for example) and pull request it.
+I will be glad to pull it in the repo.
+
+Don’t forget to pull request your real world experience with `#fuckyeah`.
 
 License
 -------
