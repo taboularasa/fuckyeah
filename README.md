@@ -80,4 +80,4 @@ Don’t forget to pull request your real world experience with `#fuckyeah`.
 License
 -------
 
-Fuckyeah is under [WTFPL license](https://github.com/somu/fuckyeah/blob/master/license).
+Fuckyeah is under [WTFPL license](https://github.com/somu/fuckyeah/blob/master/LICENSE).
