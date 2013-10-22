@@ -14,11 +14,10 @@ Everything you can dream of.
 Getting started
 ---------------
 
-Just install the gem:
+Just install the gem and you’re ready to go:
 ```shell
 gem install fuckyeah
 ```
-And you’re ready to go!
 
 Examples
 --------
@@ -57,6 +56,8 @@ end
 No prob, `#fuckyeah` is your lifesaver:
 
 ```ruby
+require 'fuckyeah'
+
 def true_or_false(bool)
   !!bool.fuckyeah ? true : false
 end
