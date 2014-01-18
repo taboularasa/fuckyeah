@@ -18,7 +18,7 @@ describe Time do
 
   it 'works with Time objects!' do
     time = Time.now
-    assert_equal time, time.fuckyeah
+    assert_equal time, time.fuckyeah!
   end
 
   it 'returns the same object!' do
