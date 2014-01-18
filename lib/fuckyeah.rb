@@ -7,4 +7,9 @@ class Object
   def fuckyeah
     self
   end
+
+  # Makes code cooler, more sophisticated, and more confident
+  #
+  # @return [Object] itself
+  alias_method :fuckyeah!, :fuckyeah
 end
