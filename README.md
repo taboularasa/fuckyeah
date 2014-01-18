@@ -63,6 +63,15 @@ def true_or_false(bool)
 end
 ```
 
+Fuck Yeah!
+```ruby
+
+def awesome
+    "Oh Yeah!".fuckyeah!
+end
+
+```
+
 It’s the Ruby style, for sure. Fuck yeah.
 
 Tests
