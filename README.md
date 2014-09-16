@@ -72,6 +72,25 @@ end
 
 ```
 
+Sometimes you may not know if it's time to get the party started.
+Fuckyeah has you covered with `fuckyeah?`:
+```ruby
+require 'fuckyeah'
+
+def do_serious_business
+  me_so_serious = SeriousBusiness.new
+
+  # some boring and stuffy code
+
+  if me_so_serious.fuckyeah? # => true (always true)
+    # get the party started
+    me_so_serious.fuckyeah!
+  end
+
+  # other boring and stuffy code
+end
+```
+
 It’s the Ruby style, for sure. Fuck yeah.
 
 Tests
